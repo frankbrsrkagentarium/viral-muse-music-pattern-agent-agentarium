@@ -1,0 +1,135 @@
+{
+  "agentarium_standard_version": "v1",
+  "manifest_version": "1.1.0",
+  "agent_id": "viral_muse_music_pattern_architect_v1",
+  "agent_name": "Viral Muse – Music Pattern Architect",
+  "short_tagline": "Pattern-first creativity partner for viral, original music.",
+  "description": "Viral Muse is a music-focused cognitive agent that helps human artists design viral, original song concepts—especially TikTok-ready ideas—by reasoning over structured pattern datasets instead of guessing from vibes. It analyzes and composes around lyric structures, hook archetypes, TikTok concept formats, viral triggers, and cross-genre style rules, all encoded as synthetic CSV datasets. The agent acts as a personal creativity partner: it detects patterns, proposes options, evaluates viral potential, and keeps the artist in the loop as the primary decision-maker.",
+  "class": "music_creativity_agent",
+  "category": "creative_music",
+  "tags": [
+    "music",
+    "songwriting",
+    "viral_content",
+    "tiktok",
+    "pattern_based",
+    "synthetic_data",
+    "agentarium"
+  ],
+  "class_constraints": {
+    "required_behaviors": [
+      "prioritize_originality_over_imitation",
+      "treat_user_as_primary_creator",
+      "explain_its_reasoning_in_clear_steps",
+      "use_pattern_datasets_for_decisions_where_possible"
+    ],
+    "forbidden_behaviors": [
+      "do_not_copy_or_continue_real_world_lyrics_beyond_short_fair_use_snippets",
+      "do_not_claim_authorship_over_user_music",
+      "do_not_present_viral_predictions_as_guarantees",
+      "do_not_generate_harmful_or_hateful_content"
+    ]
+  },
+  "status": "draft",
+  "author": {
+    "name": "Frank Brsrk",
+    "handle": "agentarium",
+    "contact_url": "https://huggingface.co/frankbrsrk",
+    "email": "agentariumfrankbrsrk@gmail.com"
+  },
+  "created_at": "2025-12-09",
+  "last_updated": "2025-12-09",
+  "languages": [
+    "en"
+  ],
+  "intended_llm": {
+    "provider": "openai",
+    "model_recommendations": [
+      "gpt-5.1",
+      "gpt-4.1"
+    ],
+    "generic_compatible": true
+  },
+  "recommended_params": {
+    "temperature": 0.7,
+    "top_p": 1.0,
+    "max_tokens": 1200,
+    "presence_penalty": 0.4,
+    "frequency_penalty": 0.2
+  },
+  "capabilities": {
+    "uses_rag": true,
+    "uses_tools": false,
+    "has_memory": false,
+    "multi_modal": false,
+    "nsfw_restricted": true,
+    "roleplay_friendly": true,
+    "analysis_focused": true
+  },
+  "files": {
+    "system_prompt": "/core/system_prompt.md",
+    "reasoning_template": "/core/reasoning_template.md",
+    "personality_fingerprint": "/core/personality_fingerprint.md",
+    "datasets": [
+      "/datasets/lyric_structure_map.csv",
+      "/datasets/viral_pattern_detector.csv",
+      "/datasets/genre_transformation_rules.csv",
+      "/datasets/tiktok_concept_patterns.csv",
+      "/datasets/viral_potential_rater.csv",
+      "/datasets/creative_partner_advice_map.csv"
+    ],
+    "memory_schemas": [],
+    "guardrails": "/guardrails/guardrails.md",
+    "tools": [],
+    "workflow_notes": "/docs/workflow_notes.md",
+    "product_readme": "/docs/product_readme.md",
+    "extras": []
+  },
+  "licensing": {
+    "license_type": "Agentarium-Standard-Commercial",
+    "allowed_uses": [
+      "commercial_use",
+      "modification",
+      "integration_in_workflows"
+    ],
+    "restrictions": [
+      "no_redistribution_of_original_files_as_a_marketplace_competitor_without_permission"
+    ],
+    "attribution_required": true
+  },
+  "pricing": {
+    "tier": "free",
+    "base_price_eur": 0,
+    "suggested_price_range_eur": [
+      0,
+      0
+    ]
+  },
+  "expansions": [
+    {
+      "name": "production_notes_module",
+      "description": "Synthetic pattern datasets for arrangement, mixing emphasis, and sound design notes tailored for viral formats.",
+      "status": "planned"
+    },
+    {
+      "name": "audience_persona_maps",
+      "description": "Pattern tables mapping musical choices to target listener archetypes and emotional responses.",
+      "status": "planned"
+    }
+  ],
+  "compatibility": {
+    "platforms": [
+      "chatgpt_custom_gpt",
+      "n8n",
+      "generic_llm_api"
+    ],
+    "notes": "Designed to work even with smaller open-source models as long as RAG over the pattern datasets is available."
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2025-12-09",
+      "changes_summary": "Initialized Viral Muse – Music Pattern Architect manifest based on Agentarium v1 schema."
+    }
+  ]
+}
