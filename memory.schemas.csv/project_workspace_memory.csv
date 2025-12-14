@@ -1,0 +1,9 @@
+memory_id,project_id,project_name,workspace_key,workspace_value,value_format,priority,state,confidence,source,source_ref,created_at,updated_at
+PWS_0001,proj_viral_muse,Viral Muse,objective,Package and ship Viral Muse agent + datasets as Agentarium v1,text,high,in_progress,0.9,user_message,chat:turn_latest,2025-12-12T10:10:00+02:00,2025-12-12T10:10:00+02:00
+PWS_0002,proj_viral_muse,Viral Muse,datasets_in_scope,lyric_structure_map; viral_pattern_signals; genre_transformation_rules; tiktok_concept_patterns; viral_potential_rated; creative_partner_advice_map,list,high,done,0.95,file_import,package_build,2025-12-12T10:10:30+02:00,2025-12-12T10:10:30+02:00
+PWS_0003,proj_viral_muse,Viral Muse,known_issue_fixed,creative_partner_advice_map had unnamed empty columns + placeholder row; removed,text,med,done,0.85,system_action,data_cleaning,2025-12-12T10:11:00+02:00,2025-12-12T10:11:00+02:00
+PWS_0004,proj_viral_muse,Viral Muse,deliverables,core files; datasets; memory schemas; guardrails; workflow notes; product readme,list,high,in_progress,0.9,user_message,chat:turn_latest,2025-12-12T10:11:30+02:00,2025-12-12T10:11:30+02:00
+PWS_0005,proj_viral_muse,Viral Muse,constraint,"Keep outputs compact, actionable, pattern-driven",text,high,active,0.85,user_message,chat:turn_latest,2025-12-12T10:12:00+02:00,2025-12-12T10:12:00+02:00
+PWS_0006,proj_viral_muse,Viral Muse,next_action,Generate memory schema headers + populated examples + memory read/write script,text,high,in_progress,0.95,user_message,chat:turn_latest,2025-12-12T10:12:30+02:00,2025-12-12T10:12:30+02:00
+PWS_0007,proj_viral_muse,Viral Muse,open_question,None currently,text,low,open,0.6,assistant_inference,planning,2025-12-12T10:13:00+02:00,2025-12-12T10:13:00+02:00
+PWS_0008,proj_viral_muse,Viral Muse,definition_of_done,"Package passes schema QA, docs included, ready for GH/HF upload",text,med,active,0.8,user_message,chat:turn_latest,2025-12-12T10:13:30+02:00,2025-12-12T10:13:30+02:00

@@ -1,0 +1,9 @@
+memory_id,user_id,fact_key,fact_value,fact_type,confidence,status,privacy,source,source_ref,created_at,updated_at,notes
+UPF_0001,user_frank,preferred_name,Frank,identity,0.95,active,private,user_message,chat:turn_latest,2025-12-12T10:05:00+02:00,2025-12-12T10:05:00+02:00,Use “Frank” by default
+UPF_0002,user_frank,timezone,Europe/Athens,context,0.9,active,private,system_context,project_config,2025-12-12T10:05:10+02:00,2025-12-12T10:05:10+02:00,For scheduling + timestamps
+UPF_0003,user_frank,primary_goal,Ship Agentarium assets consistently,goal,0.8,active,private,user_message,chat:turn_latest,2025-12-12T10:06:00+02:00,2025-12-12T10:06:00+02:00,High-level motivation
+UPF_0004,user_frank,output_style,"Compact, non-LLMy, structured",preference,0.85,active,private,user_message,chat:turn_latest,2025-12-12T10:06:15+02:00,2025-12-12T10:06:15+02:00,Bias to concise bullets
+UPF_0005,user_frank,creative_bias,Pattern-first; avoid generic lyric-bot behavior,preference,0.9,active,private,user_message,chat:turn_latest,2025-12-12T10:06:40+02:00,2025-12-12T10:06:40+02:00,Patterns > vibes
+UPF_0006,user_frank,platforms_focus,"TikTok, Reddit, Substack, GitHub, Hugging Face",context,0.75,active,private,user_message,chat:turn_latest,2025-12-12T10:07:10+02:00,2025-12-12T10:07:10+02:00,Used for format suggestions
+UPF_0007,user_frank,do_not_do,Don’t hallucinate datasets/claims; don’t oversell,constraint,0.85,active,private,user_message,chat:turn_latest,2025-12-12T10:07:40+02:00,2025-12-12T10:07:40+02:00,Safety + credibility
+UPF_0008,user_frank,language_preference,English (unless asked otherwise),preference,0.7,active,private,inferred,agent_default,2025-12-12T10:08:00+02:00,2025-12-12T10:08:00+02:00,Switch if user requests
